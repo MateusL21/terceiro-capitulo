@@ -1,0 +1,135 @@
+body {
+    background-color: 
+    #b3b3b3;
+
+}
+
+.image {
+    text-align: center;
+}
+.page {
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pratos-principais-tittle {
+    font-size: 19px;
+    padding-top: 10px
+}
+
+.pratos-principais {
+    font-size: 12px;
+}
+
+.acompanhamentos-tittle {
+    font-size: 19px;
+}
+
+.valor {
+    color: #033c03;
+    font-size: 10px;
+}
+
+.pratos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.flex {
+    width: 100px 200px;
+    padding: 5px 5px;
+    border: 7px solid #ae5353;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.acompanhamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.porcoes {
+    font-size: 12px;
+}
+
+
+.container {
+    background-color: #ae5353;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    width: 700px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.container1 {
+    background-color: #dbd7d7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    width: 640px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+
+}
+
+.container2 {
+    background-color: #dbd7d7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    width: 640px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+
+.container3 {
+    background-color: #dbd7d7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    width: 640px;
+    border-radius: 4px;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+button {
+    background-color: #ae5353;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    width: 640px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #510b08;
+}
+
+input {
+    width: 600px;
+    justify-content: space-around;
+    border: none;
+    height: 14px;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 5px #435c67;
+}
+
+.dishes {
+    width: 100;
+    height: 200px;
+}
