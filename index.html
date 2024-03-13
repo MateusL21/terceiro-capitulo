@@ -71,8 +71,14 @@
         Dados Pessoais
     </div>
     <input type="text" placeholder="Nome Completo:">
-    <input type="number" placeholder="Número:">
+    <input type="text" id="phone" placeholder="Número:">
     <input type="text" placeholder="E-mail:">
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+
+    <script>$("#phone").mask("(99) 9999-99999");
+    </script>
 </div>
 <button>
     Calcular
