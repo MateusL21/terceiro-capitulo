@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Menu</title>
     <link rel="stylesheet" href="menu.css">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="quantity.css" />
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="image"><img src="home.jpg" alt="home"></div>
@@ -20,6 +23,9 @@
                     <div class="valor">
                         R$ 30,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="flex">
                     <img class="dishes" src="coxa.jpg" alt="coxa"><br>
@@ -27,12 +33,18 @@
                     <div class="valor">
                         R$ 25,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="flex">
                     <img class="dishes" src="panela.jpg" alt="panela"><br>
                     Carne de Panela
                     <div class="valor">
                         R$ 22,00
+                    </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
             </div>
@@ -48,6 +60,9 @@
                     <div class="valor">
                         R$ 10,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="flex">
                     <img class="dishes" src="salad.jpg" alt="salad"><br>
@@ -55,12 +70,18 @@
                     <div class="valor">
                         R$ 8,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="flex">
                     <img class="dishes" src="torresmo.jpg" alt="torresmo"><br>
                     Torresmo
                     <div class="valor">
                         R$ 12,00
+                    </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
             </div>
         </div>
