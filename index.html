@@ -8,6 +8,7 @@
     <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="quantity.css" />
     <script src="script.js"></script>
+    <script src="javascipt.js"></script>
 </head>
 <body>
     <div class="image"><img src="home.jpg" alt="home"></div>
@@ -24,7 +25,7 @@
                         R$ 30,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
                 <div class="flex">
@@ -34,7 +35,7 @@
                         R$ 25,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
                 <div class="flex">
@@ -44,7 +45,7 @@
                         R$ 22,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
             </div>
@@ -61,7 +62,7 @@
                         R$ 10,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
                 <div class="flex">
@@ -71,7 +72,7 @@
                         R$ 8,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
                 </div>
                 <div class="flex">
@@ -81,7 +82,7 @@
                         R$ 12,00
                     </div>
                     <div class="quantity buttons_added">
-                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                     </div>
             </div>
         </div>
@@ -98,12 +99,13 @@
     <script src="jquery-3.6.0.min.js"></script>
     <script src="jquery.mask.min.js"></script>
 
-    <script>$("#phone").mask("(99) 9999-99999");
+    <script>$("#phone").mask("(99)9 9999-9999");
     </script>
 </div>
-<button>
+<button onclick="calc()">
     Calcular
 </button>
+<div id="output"></div>
 </div>
     
 </body>
