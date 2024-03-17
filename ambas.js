@@ -1,0 +1,4 @@
+function chamarAmbas() {
+    nome();
+    calc();
+}

@@ -28,7 +28,7 @@ body {
 
 .valor {
     color: #033c03;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .pratos {
@@ -44,7 +44,7 @@ body {
     padding: 5px 5px;
     border: 7px solid #ae5353;
     border-radius: 4px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .acompanhamentos {
