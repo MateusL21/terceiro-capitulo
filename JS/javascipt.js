@@ -4,7 +4,9 @@ function calc(){
     var total      = 0;
 
     var nomeUsuario = document.getElementById("nomeusuario").value.trim();
-    output.innerHTML += nomeUsuario ? `Caro(a) <strong>${nomeUsuario}</strong>, Esses são os dados do seu pedido: <br><br>` : '';
+    output.innerHTML = nomeUsuario ? `Caro(a) <strong>${nomeUsuario}</strong>, Esses são os dados do seu pedido: <br><br>` : '';
+
+    output.style.marginTop = "20px";
 
     var prods = [
         { id: 1, name: "Bife com Batata", price: 30.0 },
@@ -37,5 +39,3 @@ function calc(){
     
     output.innerHTML += `<h2>Total: ${formatter.format(total)}</h2>`;
 }
-
-
